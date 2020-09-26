@@ -211,7 +211,7 @@ namespace EnglishWords
             if (numUPNotifyInt.Value > 10)
                 INI.Write("Timer", "NotifyInterval", numUPNotifyInt.Value.ToString());
         }
-
+        // 
         private void Form1_Load(object sender, EventArgs e)
         {
             toggleNotify.Checked = VarsConsts.toggleToggler("toggleNotify");
